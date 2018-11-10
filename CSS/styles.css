@@ -13,3 +13,16 @@
 	border-right: 50px solid transparent;
 	border-bottom: 300px solid blue;
 }
+
+.body_content {
+	padding: .25em 1.5em;
+}
+
+.facebook {
+	padding: .5em 0;
+}
+
+#title {
+	font-size: 3em;
+	padding: .25em 0;
+}
