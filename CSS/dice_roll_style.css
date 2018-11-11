@@ -1,0 +1,127 @@
+.board {
+    width: 600px;
+    height: 480px;
+    position: relative;
+    background-color: #004d40;
+    box-sizing: border-box;
+    border: 10px solid #004d40;
+    border-radius: 10px;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  .left-bin {
+    position: relative;
+    left: 20px;
+    top: 0px;
+  }
+  
+  .right-bin {
+    position: relative;
+    left: 325px;
+    top: -390px;
+  }
+  
+  .arrow-down {
+      width: 0px; 
+      height: 0px; 
+      border-left: 20px solid transparent;
+      border-right: 20px solid transparent;
+      border-top: 195px solid #37474f ;
+    border-bottom: 0px solid;
+    display: inline;
+    float: left;
+  }
+  
+  .left-bin .bottom-row {
+    clear: left;
+  }
+  
+  .right-bin .top-row {
+    clear: left;
+  }
+  
+  .right-bin .bottom-row {
+    clear: left;
+  }
+  
+  .bottom-row {
+    position: relative;
+    top: 70px
+  }
+  
+  .arrow-up {
+    width: 0px; 
+    height: 0px; 
+    border-top: 0px solid;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent ;
+    border-bottom: 195px solid #a7ffeb;
+    display: inline;
+    float: left;
+  }
+  
+  .arrow-up.odd {
+    border-bottom: 195px solid #37474f ;}
+  
+  .arrow-down.even {
+    border-top: 195px solid #a7ffeb;}
+  
+  .vertical-bar {
+    width: 10px;
+    height: 460px;
+    padding: 5px;
+    background-color: #004d40;
+    position: absolute;
+    left: 288px;
+    top: 0px;
+    
+  }
+
+  .horizontal-bar {
+    width: 580px;
+    height: 10px;
+    padding: 5px;
+    background-color: #004d40;
+    position: absolute;
+    left: 0px;
+    top: 227px;
+    
+  }
+  
+  .circle_red {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: red;
+    border-radius: 50%
+  }
+
+  .circle_yellow {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: yellow;
+    border-radius: 50%
+  }
+
+  #board_container {
+      padding: 40px 0 0px 250px;
+      opacity: .25;
+      z-index: -1;
+  }
+
+  #player_1 {
+      padding-top: 25px;
+  }
+
+  .dice_cup {
+      height: 300px;
+      width: 500px;
+      position: absolute;
+      z-index: 1;
+      top: 130px;
+      left: 360px;
+      border-radius: 10px;
+      box-shadow: 4px 4px 4px grey;
+  }
